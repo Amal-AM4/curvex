@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "img/curvex-3.ico", "type": "image/x-icon", "sizes": "192x192" },
+    { "src": "img/curvex-3.ico", "type": "image/x-icon", "sizes": "512x512" }
+  ]
+}
