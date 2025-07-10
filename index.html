@@ -39,9 +39,16 @@
     ></script>
     <script defer src="js/script.js"></script>
 
+    <script type="text/javascript" src="vendors/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="vendors/floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="vendors/floating-wpp.min.css">
+
     <title>Curvex &mdash; Custom Mousepads Made Easy!</title>
   </head>
   <body>
+
+    <div id="myWhatsAppButton"></div>
+
     <header class="header">
       <a href="#">
         <img class="logo" alt="Omnifood logo" src="img/curvex-2.png" />
@@ -488,6 +495,8 @@
       </div>
     </footer>
 
+
+
     <script>
       const videoElement = document.getElementById("productVideo");
       const videoSources = [
@@ -519,6 +528,20 @@
         updateVideo();
       });
     </script>
+
+
+  <script type="text/javascript">
+    $(function () {
+      $('#myWhatsAppButton').floatingWhatsApp({
+        phone: '918714522796',
+        popupMessage: 'Hello, how can we help you?',
+        showPopup: true,
+        headerTitle: 'Curvex Store',
+        // headerColor: 'darkgreen',
+        position: 'right',
+      });
+    });
+  </script>
     
     
   </body>
